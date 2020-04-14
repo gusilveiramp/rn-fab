@@ -1,6 +1,6 @@
 {
   "name": "rn-fab",
-  "version": "0.0.2",
+  "version": "0.0.4",
   "description": "A simple React Native Floating Action Button using NativeDriver for animations.",
   "main": "index.js",
   "keywords": [
@@ -21,7 +21,12 @@
     "react-native-floating-action-button",
     "react-native-fab"
   ],
-  "repository": "https://github.com/gusilveiramp/rn-fab",
+  "homepage": "https://github.com/gusilveiramp/rn-fab",
+  "bugs": "https://github.com/gusilveiramp/rn-fab/issues",
+  "repository": {
+    "url": "https://github.com/gusilveiramp/rn-fab",
+    "type": "git"
+  },
   "author": "Gustavo Silveira (https://github.com/gusilveiramp)",
   "license": "MIT",
   "peerDependencies": {

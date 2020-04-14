@@ -4,7 +4,7 @@
   <img height="500" src="./assets/right.gif">
 </p>
 
-# rn-fab
+# rn-fab ![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)
 
 Simple React Native <strong>Floating Action Button</strong> using NativeDriver for high-performance animations and Ripple effect for button.
 Works on iOS and Android.
