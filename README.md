@@ -1,13 +1,13 @@
+# rn-fab ![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)
+
+Simple React Native <strong>Floating Action Button</strong> using NativeDriver for high-performance animations and Ripple effect for button.
+Works on iOS and Android.
+
 <p align="center">
   <img height="500" src="./assets/left.gif">
   <img height="500" src="./assets/center.gif">
   <img height="500" src="./assets/right.gif">
 </p>
-
-# rn-fab ![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)
-
-Simple React Native <strong>Floating Action Button</strong> using NativeDriver for high-performance animations and Ripple effect for button.
-Works on iOS and Android.
 
 ##  Install
 
@@ -20,8 +20,6 @@ or
 $ npm i rn-fab --save
 ```
 
-<br/>
-
 ## Example
 Access the example folder and install de modules
 ```sh
@@ -32,15 +30,13 @@ run on android (or ios):
 npx react-native run-android
 ```
 
-<br/>
-
 ## Use it!
 
 Import the component:
 ```sh
 import Fab from 'rn-fab';
 ```
-Setup the buttons and component:
+Setup the buttons:
 ```sh
 const actions = [
   // Main button - does not need to receive the "text" property.
@@ -63,7 +59,9 @@ const actions = [
     color: '#fdce4b'
   }
 ];
-
+```
+Setup component:
+```sh
 <View style={styles.container}>
   <Text style={styles.text}>RN Fab Example</Text>
   <Fab
@@ -73,8 +71,6 @@ const actions = [
     onPress={name => {
       if(name == "btn_detail"){
         alert(`Hi, you clicked on ${name}`)
-      } else if(name == "btn_favorite"){
-        alert(`Ah, now its the ${name}`)
       }
     }}
   />
@@ -88,8 +84,6 @@ or nothing to <strong>center</strong> it:
 ```sh
 style={bottom: 150}}
 ```
-
-<br/>
 
 ## Fab Component Specifications
 
@@ -109,3 +103,5 @@ style={bottom: 150}}
 | name | string | null | Name of the action button. This name is used as parameter for onPress action. |
 | color | string | #000 | Rotation degrees of the main button icon animation. | 
 
+## License
+MIT © - See [LICENSE](http://google.com) for more information.

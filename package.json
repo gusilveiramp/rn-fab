@@ -1,6 +1,6 @@
 {
   "name": "rn-fab",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "description": "A simple React Native Floating Action Button using NativeDriver for animations.",
   "main": "index.js",
   "keywords": [
