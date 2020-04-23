@@ -38,13 +38,13 @@ import Fab from 'rn-fab';
 Setup the buttons:
 ```sh
 const actions = [
-  // Main button - does not need to receive the "text" property.
+  // main button
   {
     icon: <Image source={PlusIcon} style={styles.icon} />,
     name: "btn_plus",
     color: '#2a57c6'
   },
-  // Action Buttons - will be displayed when you tap the main button.
+  // action buttons - will be displayed when you tap the main button.
   {
     text: "Details",
     icon: <Image source={UserIcon} style={styles.icon} />,
@@ -62,7 +62,6 @@ const actions = [
 Setup component:
 ```sh
 <View style={styles.container}>
-  <Text style={styles.text}>RN Fab Example</Text>
   <Fab
     actions={actions}
     style={{right: 40, bottom: 120}}
@@ -103,4 +102,4 @@ style={bottom: 150}}
 | color | string | #000 | Rotation degrees of the main button icon animation. | 
 
 ## License
-MIT © - See [LICENSE](http://google.com) for more information.
+MIT © - See [License](https://github.com/gusilveiramp/rn-fab/blob/master/LICENSE) for more information.
