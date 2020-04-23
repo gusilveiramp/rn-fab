@@ -1,6 +1,5 @@
-# rn-fab ![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)
-
-Simple React Native <strong>Floating Action Button</strong> using NativeDriver for high-performance animations and Ripple effect for button.
+# RN Fab ![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)
+Simple React Native <strong>Floating Action Button</strong> with <strong>NativeDriver</strong> for high-performance animations and <strong>Ripple</strong> effect for button touch style.
 Works on iOS and Android.
 
 <p align="center">
